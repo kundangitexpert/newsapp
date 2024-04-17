@@ -34,6 +34,7 @@ function fillDataInCard(cardClone,result)
 
     newsImg.src=result.image_url;
     newsTitle.innerHTML=result.title;
+    newsSource.innerHTML=result.pubDate;
     newsDesc.innerHTML=result.description;
     cardClone.firstElementChild.addEventListener("click",( ) => {
         window.open(result.link,"_blank");
