@@ -5,6 +5,21 @@
     font-weight: 500px;
     font-family: "Poppins", sans-serif;
 }
+#ipl:hover {
+    text-decoration: underline 5px red;
+    transition: 0.2s ease-in-out
+    
+}
+
+#finance:hover {
+    text-decoration: underline 5px red;
+    transition: 0.2s ease-in-out
+}
+
+#politics:hover {
+    text-decoration: underline 5px red;
+    transition: 0.2s ease-in-out
+}
 
 :root {
     --primary-text-color: #183b56;
